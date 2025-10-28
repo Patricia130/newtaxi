@@ -1,0 +1,33 @@
+workflows:
+  android-native:
+    name: Build Android Nativo
+    max_build_duration: 60
+    environment:
+      vars:
+        PACKAGE_NAME: "com.seuprojeto.app"   # <-- altere para o ID do seu app
+        BUILD_DIR: "android"
+      android_signing:
+        keystore_reference: keystore
+      java: 17
+      gradle: 8.4
+    scripts:
+      - name: Limpar e preparar build
+        script: |
+          cd android
+          ./gradlew clean
+      - name: Build APK Release
+        script: |
+          ./gradlew assembleRelease
+      - name: Build AAB (Bundle) Release
+        script: |
+          ./gradlew bundleRelease
+    artifacts:
+      - android/app/build/outputs/**/*.apk
+      - android/app/build/outputs/**/*.aab
+    publishing:
+      email:
+        recipients:
+          - seuemail@exemplo.com
+        notify:
+          success: true
+          failure: true

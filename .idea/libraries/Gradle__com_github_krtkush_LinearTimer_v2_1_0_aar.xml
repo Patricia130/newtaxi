@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.krtkush:LinearTimer:v2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b18d033eb14e97349b142dea25b908b0/transformed/jetified-LinearTimer-v2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b18d033eb14e97349b142dea25b908b0/transformed/jetified-LinearTimer-v2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b18d033eb14e97349b142dea25b908b0/transformed/jetified-LinearTimer-v2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c055fb475b1e4a7d10b07746d08c00fc/transformed/jetified-LinearTimer-v2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c055fb475b1e4a7d10b07746d08c00fc/transformed/jetified-LinearTimer-v2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c055fb475b1e4a7d10b07746d08c00fc/transformed/jetified-LinearTimer-v2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f57979b0ed3344f7f849374c65c64a51/transformed/jetified-LinearTimer-v2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f57979b0ed3344f7f849374c65c64a51/transformed/jetified-LinearTimer-v2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f57979b0ed3344f7f849374c65c64a51/transformed/jetified-LinearTimer-v2.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.krtkush/LinearTimer/v2.1.0/c0ffaba71829133cb17a9e0bb129bec658be7ac5/LinearTimer-v2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.krtkush/LinearTimer/v2.1.0/ade60a66dad581ac521a2617d9debfad9dbd59c5/LinearTimer-v2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
