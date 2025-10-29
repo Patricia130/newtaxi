@@ -5,7 +5,7 @@ workflows:
     environment:
       vars:
         PACKAGE_NAME: "com.tochegando.motoboy"
-        BUILD_DIR: "android"
+        BUILD_DIR: "app"
       android_signing:
         - keystore: newtaxi
       java: 17
