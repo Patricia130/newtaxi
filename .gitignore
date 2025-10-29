@@ -1,0 +1,88 @@
+# ============================================
+# 🧱 GERAL DO GIT
+# ============================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+.idea/
+.vscode/
+.env
+*.iml
+
+# ============================================
+# 📦 BUILD / GRADLE / ANDROID
+# ============================================
+.gradle/
+build/
+captures/
+local.properties
+.gradle/
+*.apk
+*.ap_
+*.dex
+*.class
+out/
+gen/
+obj/
+*.so
+*.o
+*.a
+*.keystore
+*.jks
+
+# ============================================
+# ⚙️ GRADLE WRAPPER / CACHE
+# ============================================
+.gradle/
+**/build/
+**/.gradle/
+**/local.properties
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# ============================================
+# 🧩 CODER / IDE CONFIGS
+# ============================================
+/.idea
+/.vscode
+*.code-workspace
+*.project
+*.classpath
+*.settings/
+*.metadata/
+
+# ============================================
+# 🔐 SEGURANÇA (CHAVES / CREDENCIAIS)
+# ============================================
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+*.cer
+*.crt
+*.der
+*.pub
+*.bak
+*.properties.bak
+/secrets/
+/android/app/keystore/
+/android/key.properties
+android/key.properties
+android/keystore.properties
+
+# ============================================
+# 🧰 CODENAGIC / CI CACHE
+# ============================================
+codemagic.yaml.lock
+.codemagic/
+.codemagic-secrets/
+builds/
+tmp/
+cache/
+logs/

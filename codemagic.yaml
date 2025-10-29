@@ -1,15 +1,14 @@
 workflows:
   android-native:
-    name: Build Android Nativo
+    name: Build Android Nativo - Tô Chegando Delivery
     max_build_duration: 60
     environment:
       vars:
-        PACKAGE_NAME: "com.seuprojeto.app"   # <-- altere para o ID do seu app
+        PACKAGE_NAME: "com.tochegando.motoboy"
         BUILD_DIR: "android"
       android_signing:
-        keystore_reference: keystore
+        - keystore: newtaxi
       java: 17
-      gradle: 8.4
     scripts:
       - name: Limpar e preparar build
         script: |
@@ -27,7 +26,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - seuemail@exemplo.com
+          - alissonkw130@gmail.com
         notify:
           success: true
           failure: true
